@@ -1,0 +1,14 @@
+C:\Users\HP\source\repos\NegosudAPI\bin\Debug\NegosudAPI.deps.json
+C:\Users\HP\source\repos\NegosudAPI\bin\Debug\NegosudAPI.runtimeconfig.json
+C:\Users\HP\source\repos\NegosudAPI\bin\Debug\appsettings.Development.json
+C:\Users\HP\source\repos\NegosudAPI\bin\Debug\appsettings.json
+C:\Users\HP\source\repos\NegosudAPI\bin\Debug\NegosudAPI.exe
+C:\Users\HP\source\repos\NegosudAPI\bin\Debug\NegosudAPI.dll
+C:\Users\HP\source\repos\NegosudAPI\bin\Debug\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\HP\source\repos\NegosudAPI\bin\Debug\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\HP\source\repos\NegosudAPI\bin\Debug\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\HP\source\repos\NegosudAPI\bin\Debug\Microsoft.OpenApi.dll
+C:\Users\HP\source\repos\NegosudAPI\bin\Debug\NegosudAPI.pdb
+C:\Users\HP\source\repos\NegosudAPI\obj\Debug\docker-compose.dcproj.AssemblyReference.cache
+C:\Users\HP\source\repos\NegosudAPI\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\NegosudAPI\obj\Debug\docker-compose.dcproj.CopyComplete

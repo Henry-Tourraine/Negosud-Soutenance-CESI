@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NegosudAPI", "NegosudAPI.csproj", "{917176CF-1118-426E-9DFE-484049F940CD}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{CB5E8A72-2ED6-4571-A8DD-E94EA5D85722}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NegosudLib", "..\NegosudLib\NegosudLib.csproj", "{EB74A881-0983-4BB3-94D8-6A55860CFD44}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{917176CF-1118-426E-9DFE-484049F940CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{917176CF-1118-426E-9DFE-484049F940CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{917176CF-1118-426E-9DFE-484049F940CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{917176CF-1118-426E-9DFE-484049F940CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB5E8A72-2ED6-4571-A8DD-E94EA5D85722}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB5E8A72-2ED6-4571-A8DD-E94EA5D85722}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB5E8A72-2ED6-4571-A8DD-E94EA5D85722}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB5E8A72-2ED6-4571-A8DD-E94EA5D85722}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB74A881-0983-4BB3-94D8-6A55860CFD44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB74A881-0983-4BB3-94D8-6A55860CFD44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB74A881-0983-4BB3-94D8-6A55860CFD44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB74A881-0983-4BB3-94D8-6A55860CFD44}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F99053FF-21F8-4F72-9100-35D92C3A97BB}
+	EndGlobalSection
+EndGlobal

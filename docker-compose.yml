@@ -1,0 +1,15 @@
+version: '3.4'
+
+services:
+  negosudapi:
+    image: ${DOCKER_REGISTRY-}negosudapi
+    build:
+      context: .
+      dockerfile: Dockerfile
+  sqldb:
+      image: mcr.microsoft.com/mssql/server:2019-latest
+      environment:
+        - SA_PASSWORD=2Secure*Password2
+        - ACCEPT_EULA=Y
+      ports:
+        - "1433:1433"

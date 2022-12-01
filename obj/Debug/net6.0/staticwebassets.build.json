@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "xVoNBmBICPzFUZVYatJJzr1pFqxmStVdDEGArzOjdFM=",
+  "Source": "NegosudAPI",
+  "BasePath": "_content/NegosudAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
