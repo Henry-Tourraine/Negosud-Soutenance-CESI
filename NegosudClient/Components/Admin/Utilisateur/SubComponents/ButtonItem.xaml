@@ -1,0 +1,36 @@
+﻿<UserControl x:Class="NegosudClient.Components.Admin.Utilisateur.Subcomponents.ButtonItem"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:NegosudClient.Components.Admin.Utilisateur"
+             mc:Ignorable="d" 
+             d:DesignHeight="50" d:DesignWidth="200">
+    <Grid>
+        <StackPanel
+            Margin="0, 250, 0, 0"
+            Height="50"
+            Width="200"
+            Orientation="Horizontal" Grid.Column="1" Grid.Row="1">
+
+            <RadioButton 
+                Height="50"
+            Width="100"
+                FontSize="15" 
+                Content="Créer"
+                x:Name="Create"
+                Style="{StaticResource createButtonStyle}"
+                >
+
+            </RadioButton>
+            <RadioButton 
+                Height="50"
+            Width="100"
+                FontSize="15"
+                Content="Mettre à jour"
+                x:Name="Update"
+                Style="{StaticResource updateButtonStyle}">
+            </RadioButton>
+        </StackPanel>
+    </Grid>
+</UserControl>

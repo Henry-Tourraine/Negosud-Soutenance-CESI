@@ -1,0 +1,19 @@
+﻿<Application x:Class="NegosudClient.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:NegosudClient"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Theme/Components/ComboStyle.xaml"/>
+                <ResourceDictionary Source="Theme/Components/FormStyle.xaml"/>
+                <ResourceDictionary Source="Theme/Components/LayoutStyle.xaml"/>
+                <ResourceDictionary Source="Theme/Components/ListStyle.xaml"/>
+                <ResourceDictionary Source="Theme/ToggleButton.xaml"/>
+                <ResourceDictionary Source="Theme/ToggleButton2.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+         
+    </Application.Resources>
+</Application>

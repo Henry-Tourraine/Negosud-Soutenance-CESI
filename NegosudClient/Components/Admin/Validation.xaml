@@ -1,0 +1,52 @@
+﻿<Window x:Class="NegosudClient.Components.Admin.Validation"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NegosudClient.Components.Admin"
+        mc:Ignorable="d"
+        Title="Validation" Height="300" Width="400"
+        WindowStyle="None"
+        FontSize="30"
+        MouseDown="Validation_MouseDown"
+        >
+    <Grid >
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+
+        </Grid.RowDefinitions>
+
+        <TextBlock VerticalAlignment="Center"
+                   HorizontalAlignment="Center">
+            Etes-vous sûr de vouloir
+        <LineBreak />
+             poursuivre cette action ?
+        </TextBlock>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="100"/>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="100"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Button Content="Oui"
+                    Width="100"
+                    Grid.Column="1"
+                    Height="75"
+                    x:Name="Oui"
+                    Style="{StaticResource FormStyleButton}"
+                    />
+            <Button Content="Non"
+                    Width="100"
+                    Height="75"
+                    Grid.Column="3"
+                    x:Name="Non"
+                    Style="{StaticResource FormStyleButton}"
+                     Background="Red"
+                    
+                    />
+        </Grid>
+    </Grid>
+</Window>

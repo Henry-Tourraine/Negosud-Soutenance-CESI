@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NegosudClient", "NegosudClient\NegosudClient.csproj", "{DE99AE34-6E9A-48B2-8755-D0B2EE938DAA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE99AE34-6E9A-48B2-8755-D0B2EE938DAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE99AE34-6E9A-48B2-8755-D0B2EE938DAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE99AE34-6E9A-48B2-8755-D0B2EE938DAA}.Debug|x64.ActiveCfg = Debug|x64
+		{DE99AE34-6E9A-48B2-8755-D0B2EE938DAA}.Debug|x64.Build.0 = Debug|x64
+		{DE99AE34-6E9A-48B2-8755-D0B2EE938DAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE99AE34-6E9A-48B2-8755-D0B2EE938DAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE99AE34-6E9A-48B2-8755-D0B2EE938DAA}.Release|x64.ActiveCfg = Release|x64
+		{DE99AE34-6E9A-48B2-8755-D0B2EE938DAA}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {79A70E7B-02E6-47EC-936A-55F79B29ED5B}
+	EndGlobalSection
+EndGlobal
